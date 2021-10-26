@@ -6,7 +6,7 @@ import {
 /**
  * Initialization data for the qgrid2 extension.
  */
-const plugin: JupyterFrontEndPlugin<void> = {
+const extension: JupyterFrontEndPlugin<void> = {
   id: 'qgrid2:plugin',
   autoStart: true,
   activate: (app: JupyterFrontEnd) => {
@@ -14,4 +14,4 @@ const plugin: JupyterFrontEndPlugin<void> = {
   }
 };
 
-export default plugin;
+export default extension
