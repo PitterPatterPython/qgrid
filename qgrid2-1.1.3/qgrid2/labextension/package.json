@@ -2,8 +2,12 @@
   "name": "qgrid2",
   "version": "1.1.3",
   "description": "An Interactive Grid for Sorting and Filtering DataFrames in Jupyter Notebook",
-  "author": "Quantopian Inc.",
+  "author": {
+    "name": "Quantopian Inc.",
+    "email": "some@some.com"
+  },
   "main": "src/index.js",
+  "homepage": "Doesnot exist",
   "repository": {
     "type": "git",
     "url": "https://github.com/Quantopian/qgrid.git"
@@ -14,6 +18,7 @@
     "ipython",
     "ipywidgets"
   ],
+  "license": "BSD-3",
   "scripts": {
     "build": "jlpm run build:lib && jlpm run build:labextension:dev",
     "build:labextension": "jupyter labextension build .",
@@ -55,7 +60,10 @@
   },
   "dependencies": {
     "@jupyter-widgets/base": "^1.1 || ^2 || ^3 || ^4",
-    "@jupyter-widgets/controls": "^1 || ^2",
+    "@jupyter-widgets/controls": "^1 || ^2 || ^3",
+    "@jupyterlab/application": "^3.2.1",
+    "@jupyterlab/apputils": "^3.2.1",
+    "clean": "^4.0.2",
     "jquery": "^3.2.1",
     "jquery-ui-dist": "^1.12.1",
     "moment": "^2.24.0",
@@ -74,7 +82,7 @@
     "extension": "src/jupyterlab-plugin",
     "outputDir": "qgrid2/labextension",
     "_build": {
-      "load": "static/remoteEntry.9101bc1ba3d849dc6d7c.js",
+      "load": "static/remoteEntry.1daf9fab3fd0fc1cc6c6.js",
       "extension": "./extension",
       "style": "./style"
     }

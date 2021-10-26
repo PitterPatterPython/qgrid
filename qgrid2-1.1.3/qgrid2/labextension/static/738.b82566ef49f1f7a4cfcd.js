@@ -1,1 +1,0 @@
-(self.webpackChunkqgrid2=self.webpackChunkqgrid2||[]).push([[738],{3738:(e,r,i)=>{var t=i(8138),s=i(3883);e.exports={id:"qgrid",requires:[s.IJupyterWidgetRegistry],activate:function(e,r){r.registerWidget({name:"qgrid",version:t.version,exports:t})},autoStart:!0}}}]);
