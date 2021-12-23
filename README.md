@@ -21,7 +21,7 @@ Thanks!
 - ` git clone https://github.com/johnomernik/qgrid`
 - `cd qgrid`
 - `python setup.py install`
-- `pip pip install qgrid2-1.1.3-py3-none-any.whl`
+- `pip install qgrid2-1.1.3-py3-none-any.whl`
 - `cd ..`
 
 At this point, it worked for me with:
