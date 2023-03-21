@@ -18,9 +18,15 @@ Thanks!
 
 ## Install
 ---------
-- ` git clone https://github.com/johnomernik/qgrid`
+In one command:
+
+`pip install git+https://github.com/JohnOmernik/qgrid  https://github.com/JohnOmernik/qgrid/raw/main/qgrid2-1.1.3-py3-none-any.whl`
+
+..or install from sources (in develop mode with `-e`):
+
+- `git clone https://github.com/johnomernik/qgrid --depth=1`
 - `cd qgrid`
-- `python setup.py install`
+- `pip install -e .`
 - `pip install qgrid2-1.1.3-py3-none-any.whl`
 - `cd ..`
 
