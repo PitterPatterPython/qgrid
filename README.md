@@ -28,7 +28,7 @@ At this point, it worked for me with:
 
 - Python 3.9
 - JupyterLab 3.2.1
-- ipywidgets 7.6.5
+- ipywidgets 7.6.5 <8
 
 Note: I did not require Node JS to get this working, just the commands above made it work as I prebuilt the extension. 
 
